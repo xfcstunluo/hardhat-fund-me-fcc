@@ -20,3 +20,11 @@ yarn add --dev ethers@^5 降级
 
 yarn hardhat coverage 测试.sol文件的代码被执行的覆盖率
 ```
+
+```
+git init -b main
+git add .
+git commit -m 'initial commit'
+git remote add origin https://github.com/xfcstunluo/hardhat-fund-me-fcc.git
+git push origin main
+```
