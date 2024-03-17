@@ -23,8 +23,8 @@ yarn hardhat coverage 测试.sol文件的代码被执行的覆盖率
 
 ```
 git init -b main
-git add .
-git commit -m 'initial commit'
+git add . //后续再推送时，执行1
+git commit -m 'initial commit' //执行2
 git remote add origin https://github.com/xfcstunluo/hardhat-fund-me-fcc.git
-git push origin main
+git push origin main 执行3
 ```
