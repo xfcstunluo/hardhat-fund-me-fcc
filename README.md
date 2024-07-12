@@ -29,3 +29,11 @@ git remote add origin https://github.com/xfcstunluo/hardhat-fund-me-fcc.git
 *github现在不用main，而是master。所以出错时要加上：git branch -m master main
 git push origin main 执行3
 ```
+
+```
+当项目有多个子系统时，删除各自子系统中的gitignore文件，以及.git隐藏文件夹（直接在文件夹页面删），后执行：
+git rm --cached 文件夹名
+git add .
+git commit -m "commit msg"
+git push origin main
+```
