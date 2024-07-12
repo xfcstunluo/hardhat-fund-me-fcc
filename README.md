@@ -26,5 +26,6 @@ git init -b main
 git add . //后续再推送时，执行1
 git commit -m 'initial commit' //执行2
 git remote add origin https://github.com/xfcstunluo/hardhat-fund-me-fcc.git
+*github现在不用main，而是master。所以出错时要加上：git branch -m master main
 git push origin main 执行3
 ```
